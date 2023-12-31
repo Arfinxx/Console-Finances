@@ -86,3 +86,35 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+
+// Title
+
+console.log("Financial Analysis");
+console.log("----------------");
+
+
+
+// Total months
+
+var totalMonths = finances.length 
+console.log("Total Months: " + totalMonths );
+
+
+
+// Net total amount of Profit/Losses over entire period
+
+let sum = 0;
+
+for(var i = 0; i < totalMonths; i++){
+
+  var totalProfit = finances[i][1];
+  sum += totalProfit;
+};
+
+console.log("Total: $" + sum);
+
+
+
+// Average changes in Profit/Losses over the entire period
+
