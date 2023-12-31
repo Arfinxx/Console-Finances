@@ -164,4 +164,4 @@ var averageChange = changeSum / (totalMonths - 1);
 
 console.log("Average Change: " + averageChange.toFixed(2));
 console.log("Greatest Increase in Profits/Losses: " + increase.month + " ($" + increase.profit + ")");
-console.log("Greatest Dencrease in Profits/Losses: " + decrease.month + " ($" + decrease.profit + ")");
+console.log("Greatest Decrease in Profits/Losses: " + decrease.month + " ($" + decrease.profit + ")");
