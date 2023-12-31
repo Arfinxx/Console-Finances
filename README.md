@@ -12,7 +12,10 @@ https://arfinxx.github.io/Console-Finances/
 
 ## Installation
 
-When the webpage loads, Press F12 on your keyboard, or alternatively right click on the browser and click 'Inspect', then navigate to the 'Console' Tab, in order to view the JavaScript Logs.
+When the webpage loads, Press F12 on your keyboard, or alternatively right click on the browser and click 'Inspect', then navigate to the 'Console' Tab, in order to view the JavaScript Logs. Then the screen should look like the screenshot below:
+
+![Console image](assets/Capture.PNG)
+
 
 ## License
 
